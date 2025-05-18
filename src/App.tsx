@@ -61,7 +61,7 @@ function App() {
       {loading ? (
         <div className="fixed inset-0 bg-white flex flex-col items-center justify-center z-50">
           <div className="w-24 h-24 mb-4">
-            <img src="/nvll-logo.png" alt="Meezan Logo" className="w-full h-full object-contain" />
+            <img src="/meezan_logo.png" alt="Meezan Logo" className="w-full h-full object-contain" />
           </div>
           <h1 className="text-2xl font-bold text-green-700 mb-2">Meezan Mobile</h1>
           <span className="text-xs text-gray-500 mb-6">v-1.0</span>
@@ -102,7 +102,7 @@ function App() {
           <header className="bg-white shadow-md sticky top-0 z-40">
             <div className="container mx-auto px-4 py-3 flex justify-between items-center">
               <div className="flex items-center">
-                <img src="/nvll-logo.png" alt="Meezan Logo" className="w-10 h-10 object-contain" />
+                <img src="/meezan_logo.png" alt="Meezan Logo" className="w-10 h-10 object-contain" />
                 <span className="text-xl font-semibold ml-2 text-green-700">Meezan Mobile</span>
               </div>
               <button 
@@ -419,7 +419,7 @@ function App() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
                   <div className="flex items-center mb-4">
-                    <img src="/nvll-logo.png" alt="Meezan Logo" className="w-10 h-10 object-contain" />
+                    <img src="/meezan_logo.png" alt="Meezan Logo" className="w-10 h-10 object-contain" />
                     <span className="text-xl font-semibold ml-2 text-green-400">Meezan Mobile</span>
                   </div>
                   <p className="text-gray-400 mb-4 text-sm md:text-base">
