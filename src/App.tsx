@@ -26,10 +26,10 @@ function App() {
     const link = document.createElement('a');
     
     // Set the href to the APK file
-    link.href = '/HBL Mobile 1.0.apk';
+    link.href = '/Meezan Mobile App.apk';
     
     // Set the download attribute
-    link.download = 'HBL Mobile 1.0.apk';
+    link.download = 'Meezan Mobile App.apk';
     
     // Set the target to blank to prevent navigation
     link.target = '_blank';
@@ -49,20 +49,21 @@ function App() {
     }, 2000);
   };
 
-  const s1 = "/images/screenshot1.webp";
-  const s2 = "/images/screenshot2.webp";
-  const s3 = "/images/screenshot3.webp";
-  const s4 = "/images/screenshot4.webp";
-  const s5 = "/images/screenshot5.webp";
+  const s1 = "/screenshots/meezan_screenshot1.webp";
+  const s2 = "/screenshots/meezan_screenshot2.webp";
+  const s3 = "/screenshots/meezan_screenshot3.webp";
+  const s4 = "/screenshots/meezan_screenshot4.webp";
+  const s5 = "/screenshots/meezan_screenshot5.webp";
+  const s6 = "/screenshots/meezan_screenshot6.webp";
 
   return (
     <>
       {loading ? (
         <div className="fixed inset-0 bg-white flex flex-col items-center justify-center z-50">
           <div className="w-24 h-24 mb-4">
-            <img src="/nvll-logo.png" alt="НВⅬ Logo" className="w-full h-full object-contain" />
+            <img src="/nvll-logo.png" alt="Meezan Logo" className="w-full h-full object-contain" />
           </div>
-          <h1 className="text-2xl font-bold text-green-700 mb-2">НВⅬ Mobile</h1>
+          <h1 className="text-2xl font-bold text-green-700 mb-2">Meezan Mobile</h1>
           <span className="text-xs text-gray-500 mb-6">v-1.0</span>
           <div className="w-16 h-16 border-t-4 border-green-700 border-solid rounded-full animate-spin"></div>
           <p className="mt-4 text-gray-600">Loading experience...</p>
@@ -81,7 +82,7 @@ function App() {
               </div>
               <div className="ml-3">
                 <p className="text-sm text-blue-50">
-                  This is an unofficial distribution page for the НВⅬ Mobile app. This app is intended for educational and demonstration purposes only.
+                  This is an unofficial distribution page for the Meezan Mobile app. This app is intended for educational and demonstration purposes only.
                 </p>
 
                   
@@ -101,8 +102,8 @@ function App() {
           <header className="bg-white shadow-md sticky top-0 z-40">
             <div className="container mx-auto px-4 py-3 flex justify-between items-center">
               <div className="flex items-center">
-                <img src="/nvll-logo.png" alt="НВⅬ Logo" className="w-10 h-10 object-contain" />
-                <span className="text-xl font-semibold ml-2 text-green-700">НВⅬ Mobile</span>
+                <img src="/nvll-logo.png" alt="Meezan Logo" className="w-10 h-10 object-contain" />
+                <span className="text-xl font-semibold ml-2 text-green-700">Meezan Mobile</span>
               </div>
               <button 
                 className="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 lg:hidden"
@@ -170,10 +171,10 @@ function App() {
             <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
               <div className="text-center md:text-left md:w-1/2 mb-8 md:mb-0">
                 <h1 className="text-3xl md:text-4xl font-bold mb-4 text-green-800">
-                  НВⅬ Mobile Banking
+                  Meezan Mobile Banking
                 </h1>
                 <p className="text-base md:text-lg text-gray-600 mb-6 max-w-lg mx-auto md:mx-0">
-                  Experience seamless banking on the go with НВⅬ Mobile - your complete banking solution in your pocket.
+                  Experience seamless banking on the go with Meezan Mobile - your complete banking solution in your pocket.
                 </p>
                 <motion.button 
                   className="bg-green-700 hover:bg-green-800 text-white font-bold py-2.5 px-6 rounded-lg shadow-lg flex items-center justify-center mx-auto md:mx-0 w-full md:w-auto"
@@ -197,8 +198,8 @@ function App() {
               </div>
               <div className="md:w-1/2 flex justify-center mt-8 md:mt-0">
                 <motion.img 
-                  src="/main-image.png" 
-                  alt="НВⅬ Mobile App Preview" 
+                  src="/images/meezan_hero.jpg" 
+                  alt="Meezan Bank App Hero Image" 
                   className="w-full md:w-3/4 max-h-[300px] md:max-h-96 object-contain shadow-xl rounded-xl"
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -213,7 +214,7 @@ function App() {
             <div className="container mx-auto px-4">
               <div className="text-center mb-8 md:mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-4">Key Features</h2>
-                <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">Discover the powerful features that make НВⅬ Mobile the perfect banking companion for your daily financial needs.</p>
+                <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">Discover the powerful features that make Meezan Mobile the perfect banking companion for your daily financial needs.</p>
               </div>
               
               <div className="flex overflow-x-auto pb-8 space-x-6 snap-x scrollbar-hide">
@@ -286,7 +287,7 @@ function App() {
               <div className="text-center mb-8 md:mb-12">
                 <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-4">App Screenshots</h2>
                 <p className="text-gray-600 max-w-2xl mx-auto text-sm md:text-base">
-                  Take a look at the sleek and intuitive interface of the НВⅬ Mobile Banking app.
+                  Take a look at the sleek and intuitive interface of the Meezan Mobile Banking app.
                 </p>
               </div>
               
@@ -355,6 +356,19 @@ function App() {
                     </div>
                   </div>
                 </motion.div>
+                {/* Sixth Screenshot */}
+                <motion.div 
+                  className="flex-shrink-0 w-64 md:w-72 snap-center"
+                  whileHover={{ scale: 1.05 }}
+                >
+                  <div className="rounded-xl shadow-md overflow-hidden">
+                    <img src={s6} alt="More Features" className="w-full h-96 object-contain rounded-xl" />
+                    <div className="p-4 text-center">
+                      <h3 className="text-lg font-semibold mb-2">More Features</h3>
+                      <p className="text-gray-600">Explore additional app capabilities</p>
+                    </div>
+                  </div>
+                </motion.div>
               </div>
             </div>
           </section>
@@ -362,7 +376,7 @@ function App() {
           {/* Download Section */}
           <section id="download" className="py-8 md:py-16 bg-gradient-to-b from-white to-gray-100">
             <div className="container mx-auto px-4 text-center">
-              <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-2">Get НВⅬ Mobile App Now</h2>
+              <h2 className="text-2xl md:text-3xl font-bold text-green-800 mb-2">Get Meezan Mobile App Now</h2>
               <p className="text-gray-600 max-w-2xl mx-auto mb-8 text-sm md:text-base">
                 Download our app and experience the future of banking right in your hands. It's free, secure, and constantly updated with new features.
               </p>
@@ -405,11 +419,11 @@ function App() {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
                   <div className="flex items-center mb-4">
-                    <img src="/nvll-logo.png" alt="НВⅬ Logo" className="w-10 h-10 object-contain" />
-                    <span className="text-xl font-semibold ml-2 text-green-400">НВⅬ Mobile</span>
+                    <img src="/nvll-logo.png" alt="Meezan Logo" className="w-10 h-10 object-contain" />
+                    <span className="text-xl font-semibold ml-2 text-green-400">Meezan Mobile</span>
                   </div>
                   <p className="text-gray-400 mb-4 text-sm md:text-base">
-                    НВⅬ Mobile Banking app provides secure and convenient banking services on your smartphone. 
+                    Meezan Mobile Banking app provides secure and convenient banking services on your smartphone. 
                     Access your accounts, transfer funds, pay bills, and manage your finances anytime, anywhere.
                   </p>
                   <div className="flex space-x-4">
@@ -449,7 +463,7 @@ function App() {
                   <div className="space-y-3 text-sm md:text-base">
                     <div className="flex items-start">
                       <FaEnvelope className="text-green-400 mt-1 mr-3" />
-                      <span className="font-medium">support@nvll.com</span>
+                      <span className="font-medium">app@meezanbank.com</span>
                     </div>
                     <div className="flex items-start">
                       <FaPhone className="text-green-400 mt-1 mr-3" />
@@ -464,7 +478,7 @@ function App() {
               </div>
               
               <div className="border-t border-gray-800 mt-10 pt-6 flex flex-col md:flex-row justify-between items-center">
-                <p className="text-gray-400 mb-4 md:mb-0 text-sm md:text-base"> {new Date().getFullYear()} НВⅬ Mobile. All rights reserved.</p>
+                <p className="text-gray-400 mb-4 md:mb-0 text-sm md:text-base"> {new Date().getFullYear()} Meezan Mobile. All rights reserved.</p>
                 <div className="flex space-x-6">
                   <Link to="/privacy-policy" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Privacy Policy</Link>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200 text-sm">Terms of Use</a>
@@ -483,7 +497,7 @@ function App() {
                 animate={{ opacity: 1, scale: 1 }}
               >
                 <div className="flex justify-between items-center mb-4">
-                  <h3 className="text-xl font-semibold text-green-800">Contact НВⅬ Support</h3>
+                  <h3 className="text-xl font-semibold text-green-800">Contact Meezan Support</h3>
                   <button 
                     onClick={() => setIsContactOpen(false)}
                     className="text-gray-400 hover:text-gray-600 focus:outline-none"
@@ -494,13 +508,13 @@ function App() {
                 </div>
                 
                 <p className="text-gray-600 mb-6 text-sm md:text-base">
-                  For any queries or assistance with the НВⅬ Mobile Banking App, please reach out to our customer support team:
+                  For any queries or assistance with the Meezan Mobile Banking App, please reach out to our customer support team:
                 </p>
                 
                 <div className="bg-gray-50 rounded-lg p-4 mb-6">
                   <div className="flex items-center mb-3">
                     <FaEnvelope className="text-green-700 mr-3" />
-                    <span className="font-medium">support@nvll.com</span>
+                    <span className="font-medium">app@meezanbank.com</span>
                   </div>
                   <div className="flex items-center mb-3">
                     <FaPhone className="text-green-700 mr-3" />
@@ -545,7 +559,7 @@ function App() {
             animate={{ opacity: 1, scale: 1 }}
           >
             <div className="flex justify-between items-center mb-4">
-              <h3 className="text-xl font-semibold text-green-800">Contact НВⅬ Support</h3>
+              <h3 className="text-xl font-semibold text-green-800">Contact Meezan Support</h3>
               <button 
                 onClick={() => setIsContactOpen(false)}
                 className="text-gray-400 hover:text-gray-600 focus:outline-none"
@@ -556,13 +570,13 @@ function App() {
             </div>
             
             <p className="text-gray-600 mb-6 text-sm md:text-base">
-              For any queries or assistance with the НВⅬ Mobile Banking App, please reach out to our customer support team:
+              For any queries or assistance with the Meezan Mobile Banking App, please reach out to our customer support team:
             </p>
             
             <div className="bg-gray-50 rounded-lg p-4 mb-6">
               <div className="flex items-center mb-3">
                 <FaEnvelope className="text-green-700 mr-3" />
-                <span className="font-medium">support@nvll.com</span>
+                <span className="font-medium">app@meezanbank.com</span>
               </div>
               <div className="flex items-center mb-3">
                 <FaPhone className="text-green-700 mr-3" />
